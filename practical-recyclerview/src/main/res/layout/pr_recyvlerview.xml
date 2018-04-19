@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.hz.recyvlerview.MyRecyclerView
+        android:id="@+id/pr_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="true"
+        android:paddingTop="8dp"/>
+
+    <com.hz.recyvlerview.LoadView
+        android:id="@+id/loadView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:pr_LoadViewNoDataImg="@drawable/space_icons"
+        app:pr_LoadViewNoDataText="@string/no_data_default_message" />
+
+</FrameLayout>

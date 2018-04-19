@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <LinearLayout
+        android:id="@+id/no_data_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        >
+
+        <ImageView
+            android:id="@+id/no_data_img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/space_icons"/>
+
+        <TextView
+            android:id="@+id/no_data_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#aaaaaa"
+            android:textSize="15sp"
+            android:layout_marginTop="7.2dp"
+            android:gravity="center"
+            android:text="@string/no_data_default_message"
+           />
+
+        <TextView
+            android:id="@+id/no_data_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:background="@drawable/pr_bg_oval_theme"
+            android:layout_marginTop="7.2dp"
+            android:gravity="center"
+            android:text="点击返回"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

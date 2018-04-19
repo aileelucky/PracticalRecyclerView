@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">practical-recyclerview</string>
+    <string name="pr_common_footer_text">我是有底线的</string>
+    <string name="no_data_default_message">哎呀~这里什么都没有</string>
+</resources>

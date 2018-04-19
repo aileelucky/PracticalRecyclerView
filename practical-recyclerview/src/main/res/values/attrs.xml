@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PR_ProgressWheel">
+        <attr name="pr_matProg_progressIndeterminate" format="boolean" />
+        <attr name="pr_matProg_barColor" format="color" />
+        <attr name="pr_matProg_rimColor" format="color" />
+        <attr name="pr_matProg_rimWidth" format="dimension" />
+        <attr name="pr_matProg_spinSpeed" format="float" />
+        <attr name="pr_matProg_barSpinCycleTime" format="integer" />
+        <attr name="pr_matProg_circleRadius" format="dimension" />
+        <attr name="pr_matProg_fillRadius" format="boolean" />
+        <attr name="pr_matProg_barWidth" format="dimension" />
+        <attr name="pr_matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="PR_RecyclerView">
+        <attr name="pr_rrv_footer_text" format="string" />
+        <attr name="pr_rrv_footer_color" format="color" />
+        <attr name="pr_rrv_page_size" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="PR_LoadView">
+        <attr name="pr_LoadViewNoDataText" format="string" />
+        <attr name="pr_LoadViewNoDataImg" format="reference" />
+        <attr name="pr_LoadViewNoDataBackGround" format="color|reference" />
+        <attr name="pr_LoadViewNoDataBtnBackGround" format="color|reference" />
+        <attr name="pr_LoadViewNoDataBtnTextColor" format="color" />
+        <attr name="pr_LoadViewNoDataBtnText" format="string" />
+    </declare-styleable>
+</resources>
