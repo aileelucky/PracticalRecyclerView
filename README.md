@@ -13,7 +13,20 @@
             />
 ```
 
-## d
+## 代码中实现（简单示例）
+```java
+ practicalRecyclerView = (PracticalRecyclerView) findViewById(R.id.prv);
+
+ practicalRecyclerView.myRecyclerView.setLayoutManager(new PRLinearLayoutManager(this));
+        practicalRecyclerView.myRecyclerView.setAdapter(new RecycleCommonAdapter<String>(this,list,R.layout.item_string) {
+            @Override
+            public void convert(RecycleCommonViewHolder helper, String item, int position) {
+                
+            }
+        });
+        practicalRecyclerView.myRecyclerView.loadMoreComplete();
+```
+
 
 ## 描述
 自定义一个包含上拉加载更多、空白页面的Recycler
